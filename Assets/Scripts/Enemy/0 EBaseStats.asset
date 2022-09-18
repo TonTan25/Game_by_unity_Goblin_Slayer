@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0f719bbaafed94c92c2e88f80d0c52, type: 3}
+  m_Name: 0 EBaseStats
+  m_EditorClassIdentifier: 
+  entityStats:
+  - name: PinkSlime
+    BaseHealthMin: 500
+    BaseHealthMax: 1500
+    BaseSpeed: 7
+    BaseMinDmg: 20
+    BaseMaxDmg: 40
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 20
+      MaxAmount: 80
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 100
+      MinAmount: 2
+      MaxAmount: 6
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 100
+      MinAmount: 2
+      MaxAmount: 6
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Slime
+    BaseHealthMin: 40
+    BaseHealthMax: 80
+    BaseSpeed: 3
+    BaseMinDmg: 1
+    BaseMaxDmg: 10
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 0
+      MaxAmount: 2
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 50
+      MinAmount: 0
+      MaxAmount: 1
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 30
+      MinAmount: 0
+      MaxAmount: 1
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Goblin
+    BaseHealthMin: 80
+    BaseHealthMax: 120
+    BaseSpeed: 3.5
+    BaseMinDmg: 5
+    BaseMaxDmg: 15
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 1
+      MaxAmount: 3
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 60
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 60
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Skelleton
+    BaseHealthMin: 50
+    BaseHealthMax: 100
+    BaseSpeed: 3
+    BaseMinDmg: 5
+    BaseMaxDmg: 15
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 5
+      MaxAmount: 15
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 50
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 25
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Roamer
+    BaseHealthMin: 60
+    BaseHealthMax: 120
+    BaseSpeed: 4
+    BaseMinDmg: 7
+    BaseMaxDmg: 15
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 5
+      MaxAmount: 20
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 50
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 30
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Orc
+    BaseHealthMin: 250
+    BaseHealthMax: 400
+    BaseSpeed: 3.5
+    BaseMinDmg: 10
+    BaseMaxDmg: 20
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 100
+      MinAmount: 5
+      MaxAmount: 10
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 50
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 50
+      MinAmount: 1
+      MaxAmount: 2
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Knight
+    BaseHealthMin: 450
+    BaseHealthMax: 600
+    BaseSpeed: 3
+    BaseMinDmg: 15
+    BaseMaxDmg: 35
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 90
+      MinAmount: 10
+      MaxAmount: 40
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 90
+      MinAmount: 1
+      MaxAmount: 3
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 90
+      MinAmount: 2
+      MaxAmount: 3
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: DAM
+    BaseHealthMin: 350
+    BaseHealthMax: 700
+    BaseSpeed: 3.5
+    BaseMinDmg: 10
+    BaseMaxDmg: 40
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 90
+      MinAmount: 15
+      MaxAmount: 45
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 90
+      MinAmount: 1
+      MaxAmount: 4
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "B\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 80
+      MinAmount: 2
+      MaxAmount: 3
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Haunted
+    BaseHealthMin: 500
+    BaseHealthMax: 1000
+    BaseSpeed: 3.5
+    BaseMinDmg: 20
+    BaseMaxDmg: 45
+    itemDrop:
+    - EItemName: Gold
+      VItemName: "V\xE0ng"
+      Rate: 80
+      MinAmount: 15
+      MaxAmount: 50
+      Item: {fileID: 7725975081509106868, guid: 0283a5816fb79414e894855e8218caa3, type: 3}
+    - EItemName: Health pot
+      VItemName: "B\xECnh m\xE1u"
+      Rate: 75
+      MinAmount: 1
+      MaxAmount: 5
+      Item: {fileID: 5051662365453586807, guid: faa867e6b9e6d624fa3c4821802389e6, type: 3}
+    - EItemName: Stamina pot
+      VItemName: "b\xECnh th\u1EC3 l\u1EF1c"
+      Rate: 80
+      MinAmount: 2
+      MaxAmount: 3
+      Item: {fileID: 6783453361867101080, guid: e240e55de5f2b9343a11f53391babca0, type: 3}
+  - name: Drop
+    BaseHealthMin: 0
+    BaseHealthMax: 0
+    BaseSpeed: 0
+    BaseMinDmg: 0
+    BaseMaxDmg: 0
+    itemDrop:
+    - EItemName: Iron pickaxe
+      VItemName: "C\xFAp s\u1EAFt"
+      Rate: 100
+      MinAmount: 1
+      MaxAmount: 1
+      Item: {fileID: 5288177059169622603, guid: e7ac7bf23b6557d4d9df0b9b05868b8c, type: 3}
+    - EItemName: Iron sword
+      VItemName: "Ki\u1EBFm s\u1EAFt"
+      Rate: 100
+      MinAmount: 1
+      MaxAmount: 1
+      Item: {fileID: 322640122345660442, guid: 2fad336f9cfec2d43a0fa1916fb7b22c, type: 3}
+    - EItemName: Long sword
+      VItemName: "Ki\u1EBFm d\xE0i"
+      Rate: 100
+      MinAmount: 1
+      MaxAmount: 1
+      Item: {fileID: 4349760929269720699, guid: 3886cbc8d58df774389a5f7eeced2319, type: 3}
+  - name: GD
+    BaseHealthMin: 77777
+    BaseHealthMax: 99999
+    BaseSpeed: 4.5
+    BaseMinDmg: 1000
+    BaseMaxDmg: 4000
+    itemDrop: []

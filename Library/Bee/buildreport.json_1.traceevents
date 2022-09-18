@@ -1,0 +1,416 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1662773205153969, "dur": 664118, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662773205154408, "dur": 13811, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662773205168222, "dur": 632253, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662773205800477, "dur": 17609, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662773205818677, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1662773205202237, "dur":1375, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205203629, "dur":199, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1662773205203890, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1662773205203921, "dur":338, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1662773205204312, "dur":1205, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205205517, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772258, "dur":160, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772418, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772436, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772440, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772451, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772454, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772463, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772466, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772476, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772497, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205772532, "dur":2140, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1662773205204858, "dur":670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205205530, "dur":6085, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211636, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211638, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211688, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211691, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211715, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211744, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211769, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211796, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211819, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211865, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211886, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211917, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211935, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205211973, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212048, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212083, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212106, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212131, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212151, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212173, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212195, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212227, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212253, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212282, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212305, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212327, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212347, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212372, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212394, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212416, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212435, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212459, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212479, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212504, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212524, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212553, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212580, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212606, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212633, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212657, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212681, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212706, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212725, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212747, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212766, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212788, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212807, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212829, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212849, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212879, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212899, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212922, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212941, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212963, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205212981, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213004, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213025, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213049, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213068, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213093, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213114, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213138, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213264, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213293, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213315, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213340, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213361, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213388, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205213409, "dur":114991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205328401, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205328450, "dur":1852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205330303, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205330355, "dur":74136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205404492, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205404540, "dur":97096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501638, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501677, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501704, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501724, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501747, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501766, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501787, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501805, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501828, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501846, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501868, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501886, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501907, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501927, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501947, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501964, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205501983, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502000, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502025, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502043, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502064, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502083, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502104, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502121, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502147, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502164, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502191, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502208, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502227, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502243, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502262, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502279, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502298, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502314, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502334, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502352, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502374, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502392, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502417, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502434, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502453, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502469, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502489, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502507, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502528, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205502548, "dur":238131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205740692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1662773205740760, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1662773205741684, "dur":30550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205204916, "dur":622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205205539, "dur":6119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211658, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211731, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211760, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211792, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211815, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211849, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211871, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211894, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211914, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211943, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205211962, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212055, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212082, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212106, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212127, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212153, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212174, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212207, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212227, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212258, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212280, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212304, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212325, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212347, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212369, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212393, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205212415, "dur":177641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205390057, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205390105, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205391223, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205391266, "dur":52148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205443415, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205443464, "dur":328713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":2, "ts":1662773205772178, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1662773205772221, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1662773205772222, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205204957, "dur":591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205205548, "dur":6083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211636, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211745, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211777, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211822, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211847, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211872, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211895, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211924, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211943, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205211969, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205212039, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213002, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213028, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213054, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213074, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213103, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213122, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213145, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213257, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213293, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213316, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213341, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213361, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213388, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213408, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213436, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205213457, "dur":10700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205224158, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205224212, "dur":66860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205291073, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205291116, "dur":1111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205292229, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205292275, "dur":52963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205345239, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205345279, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205346335, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205346372, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205347308, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205347345, "dur":34010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205381357, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205381398, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205382518, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205382576, "dur":46852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205429430, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205429480, "dur":39138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205468619, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205468672, "dur":59785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":3, "ts":1662773205528458, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205528489, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205528531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205529037, "dur":3129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205532199, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662773205532235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205532246, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662773205535955, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205535988, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205536009, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205536915, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662773205536948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205536959, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1662773205539301, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205539366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205539376, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205541183, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205541219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205541231, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205542863, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205542892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205542900, "dur":6687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205549620, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205549657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205549668, "dur":26913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205576610, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205576643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205576654, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205577660, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1662773205577696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205577706, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1662773205578813, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1662773205578843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205578853, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1662773205579610, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1662773205579638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205579647, "dur":810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1662773205580480, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205580509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205580518, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1662773205581582, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1662773205581612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205581622, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1662773205582442, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662773205582470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205582480, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1662773205583230, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1662773205583259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205583268, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1662773205584097, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205584138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205584245, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1662773205585183, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662773205585213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205585223, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1662773205586126, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1662773205586261, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1662773205586284, "dur":185955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205205010, "dur":547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205205557, "dur":6071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211636, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211718, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211744, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211775, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211798, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211820, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211848, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211882, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211906, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211936, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205211961, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212036, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212064, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212094, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212119, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212151, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212186, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212214, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212235, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212263, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212285, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212311, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212331, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212355, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212375, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212400, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212421, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212445, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212465, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212489, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212509, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212534, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212554, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212577, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212596, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212621, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212641, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212667, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212687, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212711, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212731, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212758, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212781, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212804, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212825, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212850, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212870, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212895, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212915, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212944, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212964, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205212988, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213009, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213031, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213052, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213075, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213097, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213120, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213147, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213276, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213303, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213329, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213348, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213372, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213390, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213412, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205213430, "dur":314481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1662773205527912, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205527959, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1662773205528100, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205528126, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662773205528178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205528813, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1662773205532447, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205532502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205532511, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205533611, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205533649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205533660, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205537683, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205537719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205537730, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205540267, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205540303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205540314, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205542805, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662773205542836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205542847, "dur":2234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662773205545109, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205545141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205545179, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205546857, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662773205546890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205546902, "dur":6067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1662773205552998, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205553032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205553043, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205554896, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1662773205555059, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205555107, "dur":2133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1662773205557241, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205557311, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205557369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205557383, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205561878, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205561918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205561967, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1662773205563661, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205563699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205563710, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1662773205564793, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1662773205564825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1662773205564834, "dur":21516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Program Data/Unity/Game created/Goblin Slayer 2/Goblin Slayer 2_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1662773205586373, "dur":185864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1662773205776850, "dur":4575, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1662773205818767, "dur": 673, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1662773205818663, "dur": 808, "ph": "X", "name": "Write chrome-trace events", "args": {} },

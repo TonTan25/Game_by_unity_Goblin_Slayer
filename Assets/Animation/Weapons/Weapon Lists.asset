@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a9158ee770c4d4d8dd70cca7a0c75e, type: 3}
+  m_Name: Weapon Lists
+  m_EditorClassIdentifier: 
+  weapons:
+  - WPName: Axe
+    WeaponImg: {fileID: 21300000, guid: e41ce38b06b8d5940b81db0c4fa090f5, type: 3}
+    MinDamage: 10
+    MaxDamage: 40
+    CritChance: 30
+    AtkSpeed: 0.9
+    CritDamage: 1.8
+  - WPName: Pickaxe
+    WeaponImg: {fileID: 21300000, guid: 9f8ea26d713b6de42a724f0d00c06f0e, type: 3}
+    MinDamage: 15
+    MaxDamage: 55
+    CritChance: 60
+    AtkSpeed: 0.75
+    CritDamage: 2.5
+  - WPName: Sword
+    WeaponImg: {fileID: 21300000, guid: e552f1ca2bab14246b5e350e9d29b5e5, type: 3}
+    MinDamage: 20
+    MaxDamage: 55
+    CritChance: 50
+    AtkSpeed: 1
+    CritDamage: 2
+  - WPName: Long Sword
+    WeaponImg: {fileID: 21300000, guid: d84748e71c0b64849bd90b747eefce7b, type: 3}
+    MinDamage: 25
+    MaxDamage: 70
+    CritChance: 55
+    AtkSpeed: 1.15
+    CritDamage: 2.25

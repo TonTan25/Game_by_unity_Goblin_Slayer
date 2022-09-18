@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa057f2bea6b06428b3994d2a3047a0, type: 3}
+  m_Name: Achivement
+  m_EditorClassIdentifier: 
+  achivements:
+  - Indext: 0
+    AchiveNameV: "M\u1EA5t b\xE1nh !"
+    AchiveInfoV: "L\xE0m h\u1ECFng b\xE1nh"
+    AchiveCommentV: "B\xC1NH C\u1EE6A TA !!!"
+    AchiveNameE: No cake
+    AchiveInfoE: Ruinded the cake
+    AchiveCommentE: MAH CAKE !!!
+    AchiveIcon: {fileID: 21300000, guid: a7587f47f5b423448aab199c45932b20, type: 3}
+    AchiveTotalProgress: 1
+  - Indext: 1
+    AchiveNameV: "\u0110\u1EA7u b\u1EBFp ch\u1EA5t l\u01B0\u1EE3ng"
+    AchiveInfoV: "Ho\xE0n th\xE0nh c\u1ED1t truy\u1EC7n"
+    AchiveCommentV: "\u0110\xE2y c\xF3 th\u1EC3 g\u1ECDi l\xE0 n\xF4 l\u1EC7 h\xF3a
+      ?"
+    AchiveNameE: Quality chef
+    AchiveInfoE: Complete Storymode
+    AchiveCommentE: Is this called enslaved ?
+    AchiveIcon: {fileID: 21300000, guid: bdbda4bd89d691d4eb9b472d48cff1c8, type: 3}
+    AchiveTotalProgress: 1
+  - Indext: 2
+    AchiveNameV: "Mu\u1ED1n \u0111\u1ED1n c\u1EE7i hay g\xEC ?"
+    AchiveInfoV: "Gi\u1EBFt 100 qu\xE1i"
+    AchiveCommentV: "R\xECu uy t\xEDn !"
+    AchiveNameE: Lumberjack or what ?
+    AchiveInfoE: Kill 100 mobs
+    AchiveCommentE: A trusted axe !
+    AchiveIcon: {fileID: 21300000, guid: e71ffdbcee06e274ea35363910c722e6, type: 3}
+    AchiveTotalProgress: 100
+  - Indext: 3
+    AchiveNameV: "C\xFAp kim c\u01B0\u01A1ng !!"
+    AchiveInfoV: "Gi\u1EBFt 200 qu\xE1i"
+    AchiveCommentV: "Ch\u1EDD \u0111\xE3, c\xFAp n\xE0y c\u1EE7a ai ?"
+    AchiveNameE: Diamond pickaxe
+    AchiveInfoE: Kill 200 mobs
+    AchiveCommentE: "Wait, who\u2019s belonged to ?"
+    AchiveIcon: {fileID: 21300000, guid: 49596f4cf4c1ddf42a50e130c9c10c8c, type: 3}
+    AchiveTotalProgress: 200
+  - Indext: 4
+    AchiveNameV: "Ki\u1EBFm !"
+    AchiveInfoV: "Gi\u1EBFt 400 qu\xE1i"
+    AchiveCommentV: "Ta kh\xF4ng c\xF3 k\u1EF9 n\u0103ng nh\u01B0ng ch\xE9m r\u1EA5t
+      chuy\xEAn nghi\u1EC7p"
+    AchiveNameE: Le Sword
+    AchiveInfoE: Kill 400 mobs
+    AchiveCommentE: I got no skill but still swing it like skilled
+    AchiveIcon: {fileID: 21300000, guid: 0c5394c8b44a3e241a7f7dc58059c6e3, type: 3}
+    AchiveTotalProgress: 400
+  - Indext: 5
+    AchiveNameV: "Ki\u1EBFm l\u1EDBn !"
+    AchiveInfoV: "Gi\u1EBFt 999 qu\xE1i"
+    AchiveCommentV: "Ch\u1EDD ch\xFAt, ng\u01B0\u01A1i l\u1EA5y ki\u1EBFm n\xE0y
+      \u1EDF \u0111\xE2u \u0111\u1EA5y ?"
+    AchiveNameE: Big sword !
+    AchiveInfoE: Kill 999 mobs
+    AchiveCommentE: Hang on, where did you get it ?
+    AchiveIcon: {fileID: 21300000, guid: 266cb7207c82b7847bea53ec91ee44cc, type: 3}
+    AchiveTotalProgress: 999
+  - Indext: 6
+    AchiveNameV: "Nh\u1EA7y nh\u1EE5a v\xE0 nh\u1EDBp nh\xE1p"
+    AchiveInfoV: "Gi\u1EBFt 100 Slime"
+    AchiveCommentV: "G\u1EDBm qu\xE1 ! h\xECnh nh\u01B0 ta nu\u1ED1t m\u1ED9t ch\xFAt
+      th\xEC ph\u1EA3i..."
+    AchiveNameE: Sticky and slimy
+    AchiveInfoE: Kill 100 Slime
+    AchiveCommentE: Gross ! I think some got in my mouth
+    AchiveIcon: {fileID: 21300000, guid: d3c5af219b9f69e4a8224099c7f1ad6d, type: 3}
+    AchiveTotalProgress: 100
+  - Indext: 7
+    AchiveNameV: "H\u1ED3ng h\xE0o, d\u1EC5 th\u01B0\u01A1ng v\xE0 nguy hi\u1EC3m"
+    AchiveInfoV: "Gi\u1EBFt Slime h\u1ED3ng"
+    AchiveCommentV: "Y\xEAu v\u1EADy, ta mu\u1ED1n m\u1ED9t con !"
+    AchiveNameE: Pinkie cutie and deadly
+    AchiveInfoE: Kill a pink Slime
+    AchiveCommentE: So cute, I want one !
+    AchiveIcon: {fileID: 21300000, guid: 1a93f21ab15f1784db21d5663d22ca7e, type: 3}
+    AchiveTotalProgress: 1
+  - Indext: 8
+    AchiveNameV: "K\u1EBB ph\u1EA3n di\u1EC7n"
+    AchiveInfoV: "Gi\u1EBFt 10 Slime h\u1ED3ng"
+    AchiveCommentV: "T\u1EA0I SAO ? TA GH\xC9T NG\u01AF\u01A0I !"
+    AchiveNameE: The villian
+    AchiveInfoE: Kill 10 pink Slime
+    AchiveCommentE: WHY ? I HATE YOU !
+    AchiveIcon: {fileID: 21300000, guid: de08854341feb8c48904fa9e2e4fcceb, type: 3}
+    AchiveTotalProgress: 10
+  - Indext: 9
+    AchiveNameV: "H\u1ECFng ph\xEDm"
+    AchiveInfoV: "S\u1EED d\u1EE5ng k\u1EF9 n\u0103ng 99 l\u1EA7n"
+    AchiveCommentV: "B\xE0n ph\xEDm m\u1EDBi gi\xE1 bao nhi\xEAu nh\u1EC9 ?"
+    AchiveNameE: Keyboard broked
+    AchiveInfoE: Use skill 99 times
+    AchiveCommentE: How much for the new keyboard ?
+    AchiveIcon: {fileID: 21300000, guid: 78fbe42b8ef0c38469217378dc843c5a, type: 3}
+    AchiveTotalProgress: 99
+  - Indext: 10
+    AchiveNameV: "\u0110i \u0111\xEAm"
+    AchiveInfoV: "V\u01B0\u1EE3t qua 10 \u0111\u1EE3t qu\xE1i"
+    AchiveCommentV: "T\u1EEB t\u1EEB, \u0111\u1EC3 ta c\u1EAFm tr\u1EA1i l\u1EEDa
+      \u0111\xE3"
+    AchiveNameE: Night walk
+    AchiveInfoE: Survive 10 waves
+    AchiveCommentE: Wait up, let me put on the camp fire
+    AchiveIcon: {fileID: 21300000, guid: 72881ff28326c024ab56571db6dbe0d6, type: 3}
+    AchiveTotalProgress: 10
+  - Indext: 11
+    AchiveNameV: "Bu\u1ED3n ng\u1EE7 qu\xE1"
+    AchiveInfoV: "V\u01B0\u1EE3t qua 20 \u0111\u1EE3t qu\xE1i"
+    AchiveCommentV: "Ta mu\u1ED1n \u0111i ng\u1EE7"
+    AchiveNameE: So sleepy
+    AchiveInfoE: Survive 20 waves
+    AchiveCommentE: Me want sleep !
+    AchiveIcon: {fileID: 21300000, guid: e69e97a76a8e88848be5550d395d4090, type: 3}
+    AchiveTotalProgress: 20
+  - Indext: 12
+    AchiveNameV: "\u0110\xE3 s\xE1ng ch\u01B0a ?"
+    AchiveInfoV: "V\u01B0\u1EE3t qua 30 \u0111\u1EE3t qu\xE1i"
+    AchiveCommentV: "S\u1EAFp xong ch\u01B0a ?"
+    AchiveNameE: Is it morning yet ?
+    AchiveInfoE: Survive 30 waves
+    AchiveCommentE: Is it done yet ?
+    AchiveIcon: {fileID: 21300000, guid: 26d5fb16b58af864db4e4c8650b23f06, type: 3}
+    AchiveTotalProgress: 30
+  - Indext: 13
+    AchiveNameV: Shade of stage
+    AchiveInfoV: "V\u01B0\u1EE3t qua 44 \u0111\u1EE3t qu\xE1i"
+    AchiveCommentV: "Ho\xE0n m\u1EF9 !"
+    AchiveNameE: Is morning yet ?
+    AchiveInfoE: Survive 44 waves
+    AchiveCommentE: Perfection !
+    AchiveIcon: {fileID: 21300000, guid: 964338bb939bf3b479503f9bacf2120a, type: 3}
+    AchiveTotalProgress: 44
+  - Indext: 14
+    AchiveNameV: "T\xE0ng tr\u1EEF tr\xE1i ph\xE9p"
+    AchiveInfoV: "Nh\u1EB7t 9999 v\xE0ng"
+    AchiveCommentV: "Nh\u01B0ng, \u0111i \u0111\xE2u \u0111\u1EC3 ti\xEAu x\xE0i
+      ?"
+    AchiveNameE: Illegal possesion
+    AchiveInfoE: Collect 9999 gold
+    AchiveCommentE: But, where can I spend it ?
+    AchiveIcon: {fileID: 21300000, guid: 12e007d240f5d8644a0d518ac4ba49ed, type: 3}
+    AchiveTotalProgress: 9999
+  - Indext: 15
+    AchiveNameV: "T\xE0ng tr\u1EEF ch\u1EA5t c\u1EA5m"
+    AchiveInfoV: "Nh\u1EB7t 9999 b\xECnh m\xE1u v\xE0 th\u1EC3 l\u1EF1c"
+    AchiveCommentV: "\u0110i\u1EC1u n\xE0y h\u1EE3p ph\xE1p, \u0111\xFAng kh\xF4ng
+      ?"
+    AchiveNameE: Drug Stonk
+    AchiveInfoE: Collect 9999 health and stamina pot
+    AchiveCommentE: This is legal, right ?
+    AchiveIcon: {fileID: 21300000, guid: 2ea659fd016e7a8468bedf238c5c5c6c, type: 3}
+    AchiveTotalProgress: 9999
+  - Indext: 16
+    AchiveNameV: Marshy boi
+    AchiveInfoV: "N\u1ED1c 100 b\xECnh m\xE1u !"
+    AchiveCommentV: "Kh\u1ECFe m\u1EA1nh v\xE0 ph\xEA pha"
+    AchiveNameE: Marshy boi
+    AchiveInfoE: Eat 100 health potion
+    AchiveCommentE: Thanks man !
+    AchiveIcon: {fileID: 21300000, guid: c9ad92a861b30624a86821d3cec8c387, type: 3}
+    AchiveTotalProgress: 100
+  - Indext: 17
+    AchiveNameV: "B\u1ECDt bi\u1EC3n v\xE0 sao bi\u1EC3n"
+    AchiveInfoV: "T\xECm Bob v\xE0 Patrick"
+    AchiveCommentV: 
+    AchiveNameE: Noka & Warrior
+    AchiveInfoE: Find Bob and Patrick
+    AchiveCommentE: 
+    AchiveIcon: {fileID: 21300000, guid: d09dcd4ec8adce449be78edfd7fb5e94, type: 3}
+    AchiveTotalProgress: 2
+  - Indext: 18
+    AchiveNameV: '!!?!!?!'
+    AchiveInfoV: "M\u1EDF kh\xF3a ch\u1EBF \u0111\u1ED9 th\u1EED nghi\u1EC7m"
+    AchiveCommentV: 
+    AchiveNameE: '!!?!!?!'
+    AchiveInfoE: Unlock Test field
+    AchiveCommentE: 
+    AchiveIcon: {fileID: 21300000, guid: e48f0c053a5d66847a7c7b0c715218e6, type: 3}
+    AchiveTotalProgress: 1
+  - Indext: 19
+    AchiveNameV: "T\u1EED l\xE2u long"
+    AchiveInfoV: "Ho\xE0n th\xE0nh ch\u1EBF \u0111\u1ED9 th\u1EED nghi\u1EC7m"
+    AchiveCommentV: "\u0110\u1EA1t ti\xEAu chu\u1EA9n"
+    AchiveNameE: Grim Drake
+    AchiveInfoE: Complete test field
+    AchiveCommentE: Qualified
+    AchiveIcon: {fileID: 21300000, guid: 83619ad98a3af394ea35c04f94e3ef90, type: 3}
+    AchiveTotalProgress: 1
